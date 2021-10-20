@@ -1,0 +1,93 @@
+/*
+.tools button{
+	margin-right: 5px;
+	color: #ebf2ff;
+	font-family: monospace;
+	background-color: #656565;
+	border-style: solid;
+	border-width: 0;
+	border-radius: 7px;
+	padding: 4px;
+	font-size: 19px;
+	box-shadow: none;
+}
+.tools button:not(:active){
+	letter-spacing: normal;
+	margin-right: 5px;
+	color: #ebf2ff;
+	background-color: #656565;
+	border-style: solid;
+	border-width: 0;
+	border-radius: 5px;
+	padding: 4px;
+	font-size: 19px;
+	box-shadow: 0 1px 4px 1px rgb(115, 115, 115);
+	font-weight: normal;
+}*/
+.excel input:focus {
+  text-align: left;
+}
+
+.excel table input {
+  outline: none;
+  //box-shadow: 0 0 1px rgba(0,0,0,.5) inset, 0 2px 3px rgba(0,0,0,.5) inset, 0 1px 1px rgba(255,255,255,.1);
+  background: #ececec;
+  border: none;
+  width: 100%;
+  font-size: 14px;
+  padding: 2px;
+  min-width: 100px;
+  transition: 0.4s ease;
+}
+
+.excel table input:hover {
+  background-color: #eee;
+}
+
+.excel table input:focus {
+  background-color: #ccf;
+}
+
+.excel input.right:not(:focus) {
+  text-align: right;
+}
+
+.excel input.left:not(:focus) {
+  text-align: left;
+}
+
+.excel input.middle:not(:focus) {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  transition: .8s ease-in-out;
+}
+
+td {
+  border: 1px solid #999;
+  padding: 0;
+}
+
+tr:first-child td,
+td:first-child {
+  background-color: #ccc;
+  padding: 1px 3px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.excel {
+  overflow-x: overlay;
+}
+
+.excel .tools {
+  margin-bottom: 11px;
+  display: table;
+}
+
+footer {
+  font-size: 80%;
+}

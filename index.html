@@ -1,0 +1,52 @@
+<html>
+<head>
+    <link href="css/style.css" rel="stylesheet"/>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+<body onload="pageLoad()" class="darkTheme">
+<a class="darkButton" href="views://sender.sergisa.ru/code.php?direct_link=2dc1ca">views</a>
+<a class="darkButton" href="views://sender.sergisa.ru/code.php?direct_link=2dc1ca">code-view</a>
+
+<form method="post" action="">
+    <div class="card green">
+        <input class="rb" type="radio" id="r21" lang="php" name="lang" checked/>
+        <label onclick="language_change(this)" lang="php" for="r21">PHP</label>
+        <p>
+            <input class="rb" type="radio" lang="javascript" id="r22" name="lang" />
+            <label lang="javascript" for="r22">Javascript</label>
+    </div>
+    <div class="card red">
+        <input id="rangeSelector" type="range" list="tickmarks">
+        <label for="rangeSelector"></label>
+        <datalist id="tickmarks">
+            <option value="0" label="Alert!">
+            <option value="50" label="Low">
+            <option value="100" label="Normal">
+        </datalist>
+    </div>
+    <div class="card yellow"></div>
+    <div class="card aqua">
+        <span class="linux red"></span>
+        <span class="linux green"></span>
+        <span class="linux blue"></span>
+    </div>
+    <div class="card violet">
+        <input class="rb" type="checkbox" id="r20" lang="php" name="lang" checked/>
+        <label lang="php" for="r20">PHP</label>
+    </div>
+    <input type="button" class="darkButton" name="start" value="Перейти к уроку"/>
+</form>
+<div class="excel">
+    <div class="tools">
+        <button class="darkButton alingmentSwitch" id="left"><i class="material-icons">&#xE236;</i></button>
+        <button class="darkButton alingmentSwitch" id="middle"><i class="material-icons">&#xE234;</i></button>
+        <button class="darkButton alingmentSwitch" id="right"><i class="material-icons">&#xE237;</i></button>
+        <input type="text" id="finput" class="darkTheme"/>
+        <button class="darkButton alingmentSwitch" id="done"><i class="material-icons">&#xE876;</i></button>
+    </div>
+    <table></table>
+</div>
+</body>
+</html>

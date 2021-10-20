@@ -1,0 +1,24 @@
+/*-
+ICONS
+-*/
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../js/Bootstrap-3.3.6/fonts/glyphicons-halflings-regular.eot');
+  src: url('../js/Bootstrap-3.3.6/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+  url('../js/Bootstrap-3.3.6/fonts/glyphicons-halflings-regular.woff2') format('woff2'),
+  url('../js/Bootstrap-3.3.6/fonts/glyphicons-halflings-regular.woff') format('woff'),
+  url('../js/Bootstrap-3.3.6/fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+  url('../js/Bootstrap-3.3.6/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+/*@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../.eot');
+  src: url('@{icon-font-path}@{icon-font-name}.eot?#iefix') format('embedded-opentype'),
+       url('@{icon-font-path}@{icon-font-name}.woff2') format('woff2'),
+       url('@{icon-font-path}@{icon-font-name}.woff') format('woff'),
+       url('@{icon-font-path}@{icon-font-name}.ttf') format('truetype'),
+       url('@{icon-font-path}@{icon-font-name}.svg#@{icon-font-svg-id}') format('svg');
+}
+*/

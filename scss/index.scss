@@ -1,0 +1,47 @@
+body.darkTheme {
+  background: #2F3238;
+}
+
+body {
+  font-family: 'Times New Roman', serif;
+  color: #d1d1d9;
+}
+
+body.materialTheme {
+  background-color: #0BD956;
+}
+
+@import 'fonts';
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+@import "dropdown";
+@import "selection-box";
+@import "close-buttons";
+@import "card";
+@import "button";
+@import "text-input";
+@import "checkbox";
+@import "table";
+@import "range-scrollbar";
+@import "typography";
+
+/***********************************************************************************
+									EXCELL
+***************************************************************************************/
+li {
+  list-style: none;
+}
+
+.tools button#done {
+  color: lightgreen;
+}
+
+.tools button.on {
+  box-shadow: none;
+  color: #ffffff;
+}
+
+.tools .darkButton {
+  padding: 5px 5px;
+  vertical-align: middle;
+  margin: 0 10px 0 0;
+}

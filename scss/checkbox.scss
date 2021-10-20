@@ -1,0 +1,40 @@
+input[type="checkbox"].rb,
+input[type="radio"].rb {
+  display: none;
+}
+
+input[type="checkbox"].rb + label,
+input[type="radio"].rb + label {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+input[type="checkbox"]:checked + label::before {
+  background: url('../img/check_radio_sheet.png') -17px top no-repeat;
+}
+
+input[type="checkbox"] + label::before {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin: -1px 4px 0 0;
+  vertical-align: middle;
+  background: url('../img/check_radio_sheet.png') 2px top no-repeat;
+  cursor: pointer;
+  content: '';
+}
+
+input[type="radio"].rb + label::before {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin: -1px 4px 0 0;
+  vertical-align: middle;
+  background: url('../img/check_radio_sheet.png') -38px top no-repeat;
+  cursor: pointer;
+  content: '';
+}
+
+input[type="radio"].rb:checked + label::before {
+  background: url('../img/check_radio_sheet.png') -57px top no-repeat;
+}

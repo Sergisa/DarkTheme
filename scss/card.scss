@@ -1,0 +1,43 @@
+.card {
+  background: #40464B none repeat scroll 0 0;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  left: 181px;
+  top: 0;
+  position: static;
+  width: 135px;
+  height: auto;
+  padding: 20px;
+  box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
+  margin: 10px;
+  transition: .2s ease-in-out;
+
+  &:hover {
+    transition: .3s ease-in-out;
+  }
+
+  &.yellow:hover {
+    box-shadow: 0 1px rgba(255, 255, 255, .2) inset, 0 3px 5px rgba(255, 247, 2, 0.5), 0 0 1px 1px rgba(255, 247, 2, 0.2);
+  }
+
+  &.red:hover {
+    box-shadow: 0 1px rgba(255, 255, 255, .2) inset, 0 3px 5px rgba(255, 2, 2, 0.5), 0 0 1px 1px rgba(255, 2, 2, 0.2);
+  }
+
+  &.aqua:hover {
+    box-shadow: 0 1px rgba(255, 255, 255, .2) inset, 0 3px 5px rgba(2, 255, 232, 0.5), 0 0 1px 1px rgba(2, 255, 232, 0.2);
+  }
+
+  &.violet:hover {
+    box-shadow: 0 1px rgba(255, 255, 255, .2) inset, 0 3px 5px rgba(146, 2, 255, 0.5), 0 0 1px 1px rgba(146, 2, 255, 0.2);
+  }
+
+  &.green:hover {
+    box-shadow: 0 1px rgba(255, 255, 255, .2) inset, 0 3px 5px rgba(6, 255, 2, 0.5), 0 0 1px 1px rgba(6, 255, 2, 0.2);
+  }
+
+  &.blue:hover {
+    box-shadow: 0 1px rgba(255, 255, 255, .2) inset, 0 3px 5px rgba(2, 44, 255, .5), 0 0 1px 1px rgba(0, 42, 255, .2);
+  }
+}

@@ -1,0 +1,41 @@
+/*---------------------------------------------------------------
+						DROPDOWN MENU
+--------------------------------------------------------------*/
+.dropdown_menu {
+  color: #858588;
+  font-size: 12pt;
+  font-family: Myriad Pro;
+  width: 270px;
+  height: 115px;
+  border-radius: 5px;
+  background-color: #e8e9eb;
+  /* IE9, iOS 3.2+ */
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSI1MCUiIHkxPSIxMDAlIiB4Mj0iNTAlIiB5Mj0iMCUiPjxzdG9wIHN0b3AtY29sb3I9IiNkYWRiZGIiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iI2Y2ZjdmYiIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0, #dadbdb), color-stop(1, #f6f7fb));
+  /* Android 2.3 */
+  background-image: -webkit-linear-gradient(90deg, #dadbdb 0%, #f6f7fb 100%);
+  /* IE10+ */
+  background-image: linear-gradient(0deg, #dadbdb 0%, #f6f7fb 100%);
+  background-image: -ms-linear-gradient(90deg, #dadbdb 0%, #f6f7fb 100%);
+  box-shadow: inset 0 0 1px 0 #000102, 0 1px 2px 0 #000102;
+}
+
+.dropdown_menu ul {
+  margin: 0;
+  padding-left: 12px;
+}
+
+.dropdown_menu ul li.list_head {
+  text-align: center;
+  font-size: 14pt;
+}
+
+.dropdown_menu ul li {
+  list-style: none;
+}
+
+.dropdown_menu ul li.list_item {
+
+  margin: 0;
+  padding: 0;
+}
